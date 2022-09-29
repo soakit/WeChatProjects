@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view id="carousel"
+               style="height:200px;width:100vw;"
+               scroll-x
+               enhanced
+               scroll-with-animation>
+    <view id="gradient" style="width:300vw;height:100%;background-image:linear-gradient(to right, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);">
+    </view>
+  </scroll-view>
+  <view style="display:flex;justify-content:spacing-around;padding:30px 10px;">
+    <button bind:tap="scroll">
+        滚动
+    </button>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!-- <view class="intro">上传图片</view> -->
+<!-- <button bindtap="chooseImage">选择图片</button> -->
+
+
+
+<canvas style="width: 300px; height: 200px;" canvas-id="myCanvas"></canvas>
+
